@@ -21,7 +21,7 @@ namespace Intro_SoftwareArch_Console
             int min = 0;
             int max = 99;
             int n = r.Next(min, max + 1);
-
+             
             Console.WriteLine("Here is a random generated number between {0} to {1}: {2}", min, max, n);
 
             // retain command window till user presses Enter
